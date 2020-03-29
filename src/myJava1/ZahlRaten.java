@@ -25,14 +25,18 @@ public class ZahlRaten {
 
 //		wir benutzen hier die for Schleife 
 
-		for (int row = 1; row <= 10; row++) {
-			for (int col = 1; col <= row; col++)
-			{
-				System.out.print("*");
-			}
-			
-			System.out.println();
-		}
+//		for (int row = 1; row <= 10; row++) {
+//			for (int col = 1; col <= row; col++)
+//			{
+//				System.out.print("*");
+//			}
+//			
+//			System.out.println();
+//		}
+		
+//		another for
+		for(int i =1 , j = 9; i<=j; i++, j--)
+			System.out.printf("%d  * %d = %d%n",i,j,i*j);
 	}
 
 }
